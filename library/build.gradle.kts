@@ -57,6 +57,7 @@ dependencies {
 
     implementation(libs.bundles.okhttp)
     implementation(libs.bundles.retrofit)
+    implementation(libs.jsoup)
 
 }
 
