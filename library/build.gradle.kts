@@ -55,6 +55,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    implementation(libs.bundles.okhttp)
+    implementation(libs.bundles.retrofit)
+
 }
 
 
