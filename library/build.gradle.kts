@@ -37,7 +37,7 @@ android {
             publications {
                 create<MavenPublication>("release") {
                     from(components["release"])
-                    groupId = "com.github.justcena"
+                    groupId = "com.github.sina-tabriziyan"
                     artifactId = "SData"
                     version = "0.0.1"
                 }
@@ -54,6 +54,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
 
 
